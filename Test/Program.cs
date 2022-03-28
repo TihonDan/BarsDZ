@@ -34,7 +34,7 @@ namespace Test
 
             public Entity(int id, int pID, string name)
             {
-                Name = name;//
+                Name = name;
                 ParentId = pID;
                 Id = id;
             }
