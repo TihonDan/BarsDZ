@@ -18,8 +18,8 @@ namespace Test
         {
             foreach (var temp in Method1())
             {
-                var huy = temp;
-                foreach (var dict in huy)
+                var pers = temp;
+                foreach (var dict in pers)
                 {
                     Console.WriteLine($"{dict.Key} " + "\n" + $"{dict.Value} ");
                 }
@@ -49,6 +49,7 @@ namespace Test
                 if (temp != null)
                 {
                     dict.Add(i, temp);
+                    dict.Remove(3);
                 }
             }
             yield return dict;
